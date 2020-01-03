@@ -1,0 +1,17 @@
+[{
+    "Category": "General",
+    "Code": "task2",
+    "Codeblocks": [
+        {
+            "Name": "MAIN",
+            "Steps": []
+        }
+    ],
+    "ConcurrentInstances": null,
+    "Description": "",
+    "Name": "taskcreated via URL",
+    "Parameters": [],
+    "QueueDepth": null,
+    "Team": "Default",
+    "TeamID": "5dedf00cbb37e4658b6755d7"
+}]
