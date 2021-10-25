@@ -1,1 +1,2 @@
-Add git commit to the Jira
+Add git commit to the Jira 
+Added new workitem
