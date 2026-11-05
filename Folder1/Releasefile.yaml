@@ -1,0 +1,13 @@
+# Exported from:        https://release-saas-validation-test.devops.dev.digitalai.cloud/
+# Release version:      27.1.0-1102.1100
+
+---
+apiVersion: xl-release/v1
+kind: Import
+spec:
+  imports:
+  - Connections.yaml
+  - Notifications.yaml
+  - Template_jython.yaml
+  - Template_temp1.yaml
+  - Variables.yaml

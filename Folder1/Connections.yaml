@@ -1,0 +1,19 @@
+# Exported from:        https://release-saas-validation-test.devops.dev.digitalai.cloud/
+# Release version:      27.1.0-1102.1100
+
+---
+apiVersion: xl-release/v1
+kind: Templates
+metadata:
+  path: /
+  home: Folder1
+spec:
+- name: jenkins
+  type: jenkins.Server
+  url: https://jenkins-ng.xebialabs.com/jenkinsng
+  username: npattabiraman
+  password: !value "jenkins_Server_jenkins_password"
+- name: git1
+  type: github.Server
+  loginOrToken: nithyap14
+  password: !value "github_Server_git1_password"

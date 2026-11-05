@@ -1,0 +1,16 @@
+# Exported from:        https://release-saas-validation-test.devops.dev.digitalai.cloud/
+# Release version:      27.1.0-1102.1100
+
+---
+apiVersion: xl-release/v1
+kind: Templates
+metadata:
+  path: /
+  home: Folder1
+spec:
+- folderVariables:
+  - type: xlrelease.ReferenceVariable
+    key: folder.var1
+    label: var1
+    value: jenkins
+    referencedType: jenkins.Server

@@ -1,0 +1,19 @@
+# Exported from:        https://release-saas-validation-test.devops.dev.digitalai.cloud/
+# Release version:      27.1.0-1102.1100
+
+---
+apiVersion: xl-release/v1
+kind: Templates
+metadata:
+  path: /
+  home: Folder1
+spec:
+- template: Temp1
+  scheduledStartDate: 2026-11-05T03:30:00Z
+  phases:
+  - phase: New Phase
+    tasks:
+    - name: New task
+      type: xlrelease.Task
+  riskProfile: Default risk profile
+  author: nithya.pattabiraman@digital.ai
